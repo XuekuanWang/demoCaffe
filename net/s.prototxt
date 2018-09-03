@@ -1,0 +1,13 @@
+train_net: "/home/kuan/PycharmProjects/demo_cnn_net/net/train.prototxt"
+test_net: "/home/kuan/PycharmProjects/demo_cnn_net/net/test.prototxt"
+test_iter: 1000
+test_interval: 100
+base_lr: 0.10000000149
+display: 100
+max_iter: 100000
+lr_policy: "step"
+weight_decay: 0.000500000023749
+snapshot: 100
+snapshot_prefix: "/home/kuan/PycharmProjects/demo_cnn_net/cnn_model/mnist/lenet/"
+solver_mode: GPU
+type: "SGD"
